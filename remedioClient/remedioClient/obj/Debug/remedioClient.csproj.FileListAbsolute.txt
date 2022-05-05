@@ -5,3 +5,10 @@ C:\Users\lance\source\repos\remedioClient\remedioClient\obj\Debug\remedioClient.
 C:\Users\lance\source\repos\remedioClient\remedioClient\obj\Debug\remedioClient.csproj.CoreCompileInputs.cache
 C:\Users\lance\source\repos\remedioClient\remedioClient\obj\Debug\remedioClient.exe
 C:\Users\lance\source\repos\remedioClient\remedioClient\obj\Debug\remedioClient.pdb
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\bin\Debug\remedioClient.exe.config
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\bin\Debug\remedioClient.exe
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\bin\Debug\remedioClient.pdb
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\obj\Debug\remedioClient.csprojAssemblyReference.cache
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\obj\Debug\remedioClient.csproj.CoreCompileInputs.cache
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\obj\Debug\remedioClient.exe
+C:\Users\kaian\Desktop\trabSavino\clientServerSD\remedioClient\remedioClient\obj\Debug\remedioClient.pdb

@@ -5,18 +5,18 @@ using System.Web;
 
 namespace remediosAPI.Models
 {
-    public class RemedioModel
+    public class EfeitoColateralModel
     {
         private int codigo
 ;
         private string nome;
-        private int capacidadePilulas;
-        public RemedioModel() { }
-        public RemedioModel(int codigo, string nome, int capacidadePilulas)
+        private double ocorrenciaPercentual;
+        public EfeitoColateralModel() { }
+        public EfeitoColateralModel(int codigo, string nome, double ocorrenciaPercentual)
         {
             this.Codigo = codigo;
             this.Nome = nome;
-            this.CapacidadePilulas = capacidadePilulas;
+            this.OcorrenciaPercentual = ocorrenciaPercentual;
         }
         public int Codigo
         {
@@ -28,11 +28,11 @@ namespace remediosAPI.Models
             get { return nome; }
             set { nome = value; }
         }
-        public int CapacidadePilulas
+        public double OcorrenciaPercentual
         {
             get
-            { return capacidadePilulas; }
-            set { capacidadePilulas = value; }
+            { return ocorrenciaPercentual; }
+            set { ocorrenciaPercentual = value; }
         }
     }
 }

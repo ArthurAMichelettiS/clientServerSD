@@ -156,11 +156,15 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\EfeitoColateralController.cs" />
+    <Compile Include="Controllers\RelacaoRemedioEfeitoController.cs" />
     <Compile Include="Controllers\RemedioController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\RelacaoRemedioEfeitoModel.cs" />
+    <Compile Include="Models\EfeitoColateralModel.cs" />
     <Compile Include="Models\RemedioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
