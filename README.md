@@ -1,6 +1,4 @@
-# ClientServerSD
-
-# Para Execução
+# ClientServerSD: Execução
 
 Abrir Cada projeto em uma instância do Visual Studio;
 
