@@ -3,7 +3,9 @@
 # Para Execução
 
 Abrir Cada projeto em uma instância do Visual Studio;
+
 Iniciar o Server no Visual Studio (IIS Express)
+
 Iniciar o Client no Visual Studio, alterar a URL no form exibido se necessário
 
 # Uma das routes do Server
