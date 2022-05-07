@@ -8,11 +8,17 @@ using System.Web.Http;
 
 namespace remediosAPI.Controllers
 {
-    [RoutePrefix("api/remedio")]
+    [RoutePrefix("api/Remedio")]
     public class RemedioController : ApiController
     {
         private static List<RemedioModel> listaRemedios = new
         List<RemedioModel>();
+
+        public RemedioController()
+        {
+            if (listaRemedios.Count == 0)
+                CarregarRemedios();
+        }
 
         [AcceptVerbs("POST")]
         [Route("CadastrarRemedio")]
@@ -42,11 +48,19 @@ namespace remediosAPI.Controllers
         [Route("ExcluirRemedio/{codigo}")]
         public string ExcluirRemedio(int codigo)
         {
-            RemedioModel remedio = listaRemedios.Where(n => n.Codigo == codigo)
-            .Select(n => n)
-            .First();
-            listaRemedios.Remove(remedio);
-            return "Registro excluido com sucesso!";
+            try
+            {
+                RemedioModel remedio = listaRemedios.Where(n => n.Codigo == codigo)
+                .Select(n => n)
+                .First();
+                listaRemedios.Remove(remedio);
+                return "Registro excluido com sucesso!";
+            }
+            catch
+            {
+                return "Inexistente";
+            }
+           
         }
 
         [AcceptVerbs("GET")]
@@ -63,7 +77,7 @@ namespace remediosAPI.Controllers
         [Route("ConsultarRemedios")]
         public List<RemedioModel> ConsultarRemedios()
         {
-            CarregarRemedios();
+            //CarregarRemedios();
             return listaRemedios;
         }
 

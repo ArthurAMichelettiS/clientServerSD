@@ -8,3 +8,13 @@ C:\Users\lance\source\repos\remedioClientForms\remedioClientForms\bin\Debug\reme
 C:\Users\lance\source\repos\remedioClientForms\remedioClientForms\bin\Debug\remedioClientForms.pdb
 C:\Users\lance\source\repos\remedioClientForms\remedioClientForms\obj\Debug\remedioClientForms.exe
 C:\Users\lance\source\repos\remedioClientForms\remedioClientForms\obj\Debug\remedioClientForms.pdb
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\bin\Debug\remedioClientForms.exe.config
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\bin\Debug\remedioClientForms.exe
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\bin\Debug\remedioClientForms.pdb
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.csprojAssemblyReference.cache
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.Form1.resources
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.Properties.Resources.resources
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.csproj.GenerateResource.cache
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.csproj.CoreCompileInputs.cache
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.exe
+C:\Users\lance\Desktop\projetosNow\clientServerSD\clientServerSD\remedioClientForm\remedioClientForms\obj\Debug\remedioClientForms.pdb

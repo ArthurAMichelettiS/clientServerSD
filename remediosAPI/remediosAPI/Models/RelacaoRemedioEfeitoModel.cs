@@ -9,10 +9,10 @@ namespace remediosAPI.Models
     {
         private int codigo
 ;
-        private int codigoRemedio;
+        private string codigoRemedio;
         private int codigoEfeito;
         public RelacaoRemedioEfeitoModel() { }
-        public RelacaoRemedioEfeitoModel(int codigo, int codigoRemedio, int codigoEfeito)
+        public RelacaoRemedioEfeitoModel(int codigo, string codigoRemedio, int codigoEfeito)
         {
             this.Codigo = codigo;
             this.CodigoRemedio = codigoRemedio;
@@ -23,7 +23,7 @@ namespace remediosAPI.Models
             get { return codigo; }
             set { codigo = value; }
         }
-        public int CodigoRemedio
+        public string CodigoRemedio
         {
             get { return codigoRemedio; }
             set { codigoRemedio = value; }

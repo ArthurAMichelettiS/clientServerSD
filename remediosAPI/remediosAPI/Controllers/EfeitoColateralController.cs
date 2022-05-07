@@ -8,11 +8,17 @@ using System.Web.Http;
 
 namespace remediosAPI.Controllers
 {
-    [RoutePrefix("api/efeitoColateral")]
+    [RoutePrefix("api/EfeitoColateral")]
     public class EfeitoColateralController : ApiController
     {
         private static List<EfeitoColateralModel> listaEfeitoColateral = new
         List<EfeitoColateralModel>();
+
+        public EfeitoColateralController()
+        {
+            if(listaEfeitoColateral.Count==0)
+                CarregarEfeitoColateral();
+        }
 
         [AcceptVerbs("POST")]
         [Route("CadastrarEfeitoColateral")]
@@ -42,11 +48,19 @@ namespace remediosAPI.Controllers
         [Route("ExcluirEfeitoColateral/{codigo}")]
         public string ExcluirEfeitoColateral(int codigo)
         {
-            EfeitoColateralModel efeitoColateral = listaEfeitoColateral.Where(n => n.Codigo == codigo)
-            .Select(n => n)
-            .First();
-            listaEfeitoColateral.Remove(efeitoColateral);
-            return "Registro excluido com sucesso!";
+            try
+            {
+                EfeitoColateralModel efeitoColateral = listaEfeitoColateral.Where(n => n.Codigo == codigo)
+                .Select(n => n)
+                .First();
+                listaEfeitoColateral.Remove(efeitoColateral);
+                return "Registro excluido com sucesso!";
+            }
+            catch
+            {
+                return "Inexistente";
+            }
+            
         }
 
         [AcceptVerbs("GET")]
@@ -60,10 +74,9 @@ namespace remediosAPI.Controllers
         }
 
         [AcceptVerbs("GET")]
-        [Route("ConsultarEfeitoColateral")]
+        [Route("ConsultarEfeitoColaterals")]
         public List<EfeitoColateralModel> ConsultarEfeitoColateral()
         {
-            CarregarEfeitoColateral();
             return listaEfeitoColateral;
         }
 
